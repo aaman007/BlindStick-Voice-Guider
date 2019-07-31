@@ -32,7 +32,7 @@ void rotatePlay()
   if (!SD.begin(SD_ChipSelectPin)) {
    Serial.println("SD fail");
    return;
-  }
+   }
   tmrpcm.setVolume(3);
   Serial.println("Rotate Sound Playing");
   tmrpcm.play("rotate.wav");
@@ -46,7 +46,7 @@ void forwardPlay()
   if (!SD.begin(SD_ChipSelectPin)) {
    Serial.println("SD fail");
    return;
-  }
+   }
   tmrpcm.setVolume(3);
   Serial.println("Forward Sound Playing");
   tmrpcm.play("forward.wav");
@@ -102,13 +102,13 @@ long getDistanceDOWN()
 
 void loop(){  
     bool flag = 0;
-    for(int pos=0;pos<=60;pos+=5)
+    for(int pos=0;pos<=60;pos+=20)
     {
       myservo.write(pos);
       long distUp = getDistanceUP();
       long distDown = getDistanceDOWN();
       
-      if(distUp <= 30 || distDown <= 25)
+      if(distUp <= 35 || distDown <= 20)
       {
         flag = 1;
         break;
@@ -116,13 +116,13 @@ void loop(){
     }
     if(!flag)
     {
-      for(int pos=60;pos>=0;pos-=5)
+      for(int pos=60;pos>=0;pos-=20)
       {
         myservo.write(pos);
         long distUp = getDistanceUP();
         long distDown = getDistanceDOWN();
         
-        if(distUp <= 30 || distDown <= 25)
+        if(distUp <= 35 || distDown <= 20)
         {
           flag = 1;
           break;
