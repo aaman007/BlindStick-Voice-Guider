@@ -13,7 +13,7 @@ int trigPin2 = 5;
 int echoPin2 = 6;
 long duration;
 long distance;
-int motor = 4;
+int motor = 3;
 int buzzer = 2;
  
 void setup(){
