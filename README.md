@@ -20,7 +20,7 @@ Additionally, a buzzer is used when an object is detected.
 12. Stick
 13. Earphone
 
-## Files:
+### Files:
 Two .wav files (rotate.wav and forward.wav) on MicroSD card
 
 ### Interfacing :
