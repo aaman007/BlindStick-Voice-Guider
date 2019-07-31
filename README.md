@@ -1,9 +1,9 @@
 # BlindStick-Voice-Guider
 
 ### Project Description :
-An arduino project for blind people using Arduino UNO board. It will guide a blind person by alerting when an obstacle is in front of him. Two sound commands are previously stored in MicroSD card. One of the sound is to command the blind person to "Rotate" when a obstacle is detected under 25/30 cm. The other sound file is the command to "Go forward" when no obstacle is detected under 25/30 cm.   
+An arduino project for blind people using Arduino UNO board. It will guide a blind person by alerting when an obstacle is in front of him. Two sound commands are previously stored in MicroSD card. One of the sound is to command the blind person to "Rotate" when a obstacle is detected under 35/20 cm. The other sound file is the command to "Go forward" when no obstacle is detected under 35/20 cm.   
                 
-Two ultrasonic sensor detects higher objects and lower objects. Higher object range is 0-30 cm and lower object range is 0-25 cm.  The higher object detecting ulstrasonic sensor is always looking for objects inside 60 degree angle of front side. A servo motor is used to move the sensor.        
+Two ultrasonic sensor detects higher objects and lower objects. Higher object range is 0-35 cm and lower object range is 0-20 cm.  The higher object detecting ulstrasonic sensor is always looking for objects inside 60 degree angle of front side. A servo motor is used to move the sensor.        
                 
 Additionally, a buzzer is used when an object is detected.
 
