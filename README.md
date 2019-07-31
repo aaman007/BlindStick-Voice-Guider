@@ -5,7 +5,7 @@ An arduino project for blind people using Arduino UNO board. It will guide a bli
                 
 Two ultrasonic sensor detects higher objects and lower objects. Higher object range is 0-35 cm and lower object range is 0-20 cm.  The higher object detecting ulstrasonic sensor is always looking for objects inside 60 degree angle of front side. A servo motor is used to move the sensor.        
                 
-Additionally, a buzzer is used when an object is detected.
+Additionally, a buzzer is used for alert when an object is detected.
 
 ### Components :
 1. Arduino UNO
