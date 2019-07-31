@@ -50,7 +50,7 @@ First of all connect GND and +5V port of arduino with breadboard
 #### Servo Motor and Arduino
 1. RED (+5V) with +5V of Arduino
 2. BROWN (GND) with GND of Arduino
-3. ORANGE (PWM) with Digital Pin 4 of Arduino
+3. ORANGE (PWM) with Digital Pin 3 of Arduino
 #### Buzzer and Arduino
 1. GND/Negative with GND of Arduino
-2. Positive with Digital Pin 3 of Arduino
+2. Positive with Digital Pin 2 of Arduino
