@@ -96,7 +96,7 @@ long getDistanceDOWN()
     // Prints the distance on the Serial Monitor
     Serial.print("Distance Down : ");
     Serial.println(distance);
-    return 100;
+    
     return distance;
 }
 
