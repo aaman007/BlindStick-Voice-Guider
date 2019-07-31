@@ -32,7 +32,7 @@ void rotatePlay()
   if (!SD.begin(SD_ChipSelectPin)) {
    Serial.println("SD fail");
    return;
-   }
+  }
   tmrpcm.setVolume(3);
   Serial.println("Rotate Sound Playing");
   tmrpcm.play("rotate.wav");
@@ -46,7 +46,7 @@ void forwardPlay()
   if (!SD.begin(SD_ChipSelectPin)) {
    Serial.println("SD fail");
    return;
-   }
+  }
   tmrpcm.setVolume(3);
   Serial.println("Forward Sound Playing");
   tmrpcm.play("forward.wav");
