@@ -1,4 +1,4 @@
-# BlindStick-Voice-Guider
+# BlindStick-Voice-Navigator
 
 ### Project Description :
 An arduino project for blind people using Arduino UNO board. It will guide a blind person by alerting when an obstacle is in front of him. Two sound commands are previously stored in MicroSD card. One of the sound is to command the blind person to "Rotate" when an obstacle is detected under 35/20 cm. The other sound file is the command to "Go forward" when no obstacle is detected under 35/20 cm.   
