@@ -17,6 +17,7 @@ int motor = 3;
 int buzzer = 2;
  
 void setup(){
+    myservo.attach(motor);
     pinMode(trigPin,OUTPUT);
     pinMode(echoPin,INPUT);
     pinMode(trigPin2,OUTPUT);
