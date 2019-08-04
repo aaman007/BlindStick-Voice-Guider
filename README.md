@@ -40,8 +40,8 @@ First of all connect GND and +5V port of arduino with breadboard
 #### MicroSD Card Module and Arduino
 1. GND with GND of Arduino
 2. Vcc with +5V of Arduino
-3. MOSI with Digitl Pin 12 of Arduino
-4. MISO with Digitl Pin 11 of Arduino
+3. MISO with Digitl Pin 12 of Arduino
+4. MOSI with Digitl Pin 11 of Arduino
 5. SCK with Digitl Pin 13 of Arduino
 6. CS with Digitl Pin 10 of Arduino
 #### Earphone/Speaker and Arduino
