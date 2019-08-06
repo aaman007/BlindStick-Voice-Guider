@@ -109,7 +109,7 @@ void loop(){
       long distUp = getDistanceUP();
       long distDown = getDistanceDOWN();
       
-      if(distUp <= 35 || distDown <= 20)
+      if(distUp <= 45 || distDown <= 30)
       {
         flag = 1;
         break;
@@ -123,7 +123,7 @@ void loop(){
         long distUp = getDistanceUP();
         long distDown = getDistanceDOWN();
         
-        if(distUp <= 35 || distDown <= 20)
+        if(distUp <= 45 || distDown <= 30)
         {
           flag = 1;
           break;
