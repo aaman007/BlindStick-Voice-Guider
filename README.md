@@ -18,9 +18,10 @@ Additionally, a buzzer is used for alert when an object is detected.
 8. Female to Female Jumper Wire
 9. 9V Rechargeable Battery
 10. 9V Battery Connector
-11. MicroSD Card
-12. Stick
-13. Earphone
+11. Servo Motor
+12. MicroSD Card
+13. Stick
+14. Earphone
 
 ### Files:
 Two .wav files (rotate.wav and forward.wav) on MicroSD card
